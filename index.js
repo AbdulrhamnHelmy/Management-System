@@ -26,7 +26,7 @@ liveReloadServer.server.once("connection", () => {
 
 mongoose
   .connect(
-    "mongodb+srv://systems:112233112233@system.yzag3.mongodb.net/"
+    "mongodb+srv://systems:1122@system.yzag3.mongodb.net/"
   )
   .then(() => {
     app.listen(port, () => {
